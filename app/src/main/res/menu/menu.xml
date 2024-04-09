@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:id="@+id/mnDanhSach"
+        android:icon="@drawable/baseline_arrow_drop_down_24"
+        android:title="Danh sach" />
+    <item
+        app:showAsAction="always"
+        android:id="@+id/mnGioHang"
+        android:icon="@drawable/baseline_add_shopping_cart_24"
+        android:title="Gio Hang" />
+    <item
+        app:showAsAction="always"
+        android:id="@+id/mnCaiDat"
+        android:icon="@drawable/baseline_android_24"
+        android:title="Cat Dat" />
+</menu>

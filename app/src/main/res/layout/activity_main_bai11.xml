@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityBai11">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ho ten: Dang Duc Trong"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#7CB3DF"
+        android:textColor="#F30909"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap thong bao"
+        android:id="@+id/etThongBao"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thong bao"
+        android:layout_gravity="center"
+        android:id="@+id/btnThongBao"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sach san pham"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#7CB3DF"
+        android:textColor="#F30909"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten san pham"
+        android:id="@+id/etTenSP"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap gia san pham"
+        android:id="@+id/etGiaSP"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Them"
+            android:layout_gravity="center"
+            android:id="@+id/btnThem"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xoa"
+            android:layout_gravity="center"
+            android:id="@+id/btnXoa"
+            />
+    </LinearLayout>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gvDSSP"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "441791255859",
+    "project_id": "baitaptrenlop-5d2f6",
+    "storage_bucket": "baitaptrenlop-5d2f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441791255859:android:c28b1fa47cb8ac3cb05a46",
+        "android_client_info": {
+          "package_name": "com.example.baitaptrenlop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk4OG87pv_KZqJXYINLlIhcWy38QbvASM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
